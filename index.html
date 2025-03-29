@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dames avec Elizo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Dames avec Elizo</h1>
+            <div class="current-player">
+                Tour du joueur : <span id="player-turn">Noir</span>
+            </div>
+        </header>
+
+        <div class="controls">
+            <button id="undo" class="control-btn">↩ Annuler</button>
+            <button id="restart" class="control-btn">🔄 Recommencer</button>
+        </div>
+
+        <div id="board" class="board"></div>
+
+        <div class="game-info">
+            <div class="score">
+                <div class="score-black">Noir: <span id="black-score">0</span></div>
+                <div class="score-white">Blanc: <span id="white-score">0</span></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
